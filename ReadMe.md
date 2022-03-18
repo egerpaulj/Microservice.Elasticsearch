@@ -2,6 +2,20 @@
 
 .NET Repository to Index C#.NET objects in Elastic Search.
 
+**Note:** Contains git submodule 
+
+```
+git clone --recurse-submodules https://github.com/egerpaulj/Microservice.Elasticsearch.git
+```
+
+OR
+
+```
+git clone https://github.com/egerpaulj/Microservice.Elasticsearch.git
+git submodule init
+git submodule update
+```
+
 A generic library provides the following interface
 
 ```

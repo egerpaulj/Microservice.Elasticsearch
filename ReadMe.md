@@ -63,11 +63,7 @@ see https://github.com/louthy/language-ext
 
 ## Integration Tests
 
-Start a Elasticsearch container for integration tests; run the startElastic.sh; or the command:
-
-**Note:**  Kibana is started as well. The indexed data can be visualised/analysed using Kibana.
-
-See https://www.elastic.co/elasticsearch
+Start a Elasticsearch container for integration tests; run the startElastic.sh;
 
 
 Alternatively update the **appSettings.Development** file to direct requests to your Elastic Search server
